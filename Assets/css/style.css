@@ -14,21 +14,26 @@ display: inline-block;
 }
 
 #cuore{
+  font-size: 30px;
+  color:red;
   position: absolute;
-  bottom: 100px;
+  left: 50%;
+  bottom: 0px;
+  visibility: hidden;
 }
-.discount.red{
-  font-style: bold;
+.green::after{
+  background-color: green;
+  content: "30%";}
+.red::after{
   background-color: red;
+  content: "5%";}
+
+.product::after{
   border-radius: 20%;
   position: absolute;
   right: 10px;
   top: 20px;
 }
-.cuore{
-  visibility: hidden;
-}
-
-.product:hover{
+.product:hover #cuore{
   visibility: visible ;
 }
