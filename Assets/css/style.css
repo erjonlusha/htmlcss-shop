@@ -21,19 +21,20 @@ display: inline-block;
   bottom: 0px;
   visibility: hidden;
 }
-.green::after{
+.green{
   background-color: green;
-  content: "30%";}
-.red::after{
+}
+.red{
   background-color: red;
-  content: "5%";}
+}
 
-.product::after{
+.product:hover #cuore{
+  visibility: visible ;
+}
+
+.discount{
   border-radius: 20%;
   position: absolute;
   right: 10px;
   top: 20px;
-}
-.product:hover #cuore{
-  visibility: visible ;
 }
