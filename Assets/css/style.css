@@ -4,16 +4,19 @@
 }
 
 body{
-  width: 1000px;
+  width: 75%;
 }
 .product{
   height: 372px;
   width: 300px;
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 }
-
-#cuore{
+.products {
+  text-align: center;
+}
+.cuore{
   font-size: 30px;
   color:red;
   position: absolute;
@@ -28,12 +31,12 @@ display: inline-block;
   background-color: red;
 }
 
-.product:hover #cuore{
+.product:hover .cuore{
   visibility: visible ;
+
 }
 
 .discount{
-  border-radius: 20%;
   position: absolute;
   right: 10px;
   top: 20px;
